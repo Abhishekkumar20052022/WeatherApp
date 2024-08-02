@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <!-- //bootstrap links -->
+{{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main-header -->
+    <div class="container_fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    
+                    <!-- right side-->
+                    
+                    <div class="col-md-6 col-12 main_header_right align-items-center ">
+                        <figure>
+                            <img src="./image/about.png"class="img-fluid" alt="">
+                        </figure>
+                    </div>
+
+                    <!-- left side -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to weather app</p>
+                        <h1>I Am A <span class="text_color">Mern Stack Developer</span> And A Freelancer</h1>
+                        <a href="/about.html"><button>About Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+    <!-- footer-->
+    {{>footer}}
+</body>
+</html>

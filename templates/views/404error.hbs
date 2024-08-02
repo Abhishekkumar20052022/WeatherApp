@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <!-- //bootstrap links -->
+{{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main-header -->
+    <div class="container_fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    
+                    <!-- right side-->
+                    
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errmsg_img">
+                            <img src="./image/404.png"class="img-fluid" alt="">
+                        </figure>
+                    
+                        <p>Welcome to weather report app</p>
+                        <h1><span class="text_color">{{errormsg}}</span></h1>
+                        <a href="/"><button>Home Page</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+    <!-- footer-->
+    {{>footer}}
+</body>
+</html>
